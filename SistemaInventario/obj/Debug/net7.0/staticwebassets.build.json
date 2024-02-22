@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gVxfPPTJgnRYE/8CzD+NmDX2wWlL4UnvBe4hhh3RZx0=",
+  "Hash": "vhyB8HlZLUFS3qS8h0kVy0LiCA6rciMew6uw9cLqEnw=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1233,12 +1233,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Antoine\\source\\repos\\Proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Bodega.js",
+      "Identity": "C:\\Users\\Antoine\\source\\repos\\Proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",
       "SourceId": "SistemaInventario",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Antoine\\source\\repos\\Proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\",
       "BasePath": "_content/SistemaInventario",
-      "RelativePath": "js/Bodega.js",
+      "RelativePath": "js/bodega.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,7 +1249,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Bodega.js"
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "C:\\Users\\Antoine\\source\\repos\\Proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\categoria.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Antoine\\source\\repos\\Proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "C:\\Users\\Antoine\\source\\repos\\Proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",

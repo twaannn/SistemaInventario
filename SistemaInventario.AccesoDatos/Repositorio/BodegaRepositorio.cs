@@ -16,12 +16,12 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public void Actualizar(Bodega bodega)
         {
-            var BodegaBD = _db.Bodegas.FirstOrDefault(b => b.Id == bodega.Id);
-            if (BodegaBD != null) 
-            { 
-                BodegaBD.Nombre = bodega.Nombre;
-                BodegaBD.Descripcion = bodega.Descripcion;
-                BodegaBD.Estado = bodega.Estado;
+            var bodegaBD = _db.Bodegas.FirstOrDefault(b => b.Id == bodega.Id);
+            if (bodegaBD != null) 
+            {
+                bodegaBD.Nombre = bodega.Nombre;
+                bodegaBD.Descripcion = bodega.Descripcion;
+                bodegaBD.Estado = bodega.Estado;
                 _db.SaveChanges();
             }
         }
