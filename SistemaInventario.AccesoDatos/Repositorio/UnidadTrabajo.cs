@@ -11,6 +11,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public ICategoriaRepositorio Categoria { get; private set; }
 
+        public IMarcaRepositorio Marca { get; private set; }
+
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;   
